@@ -26,8 +26,8 @@ $conn->close();
 <h1>Islands</h1>
 
 <div class="navbar">
-    <a href="web-interface/islands.php?type=player">Player Islands</a>
-    <a href="web-interface/islands.php?type=faction">Faction Islands</a>
+    <a href="islands.php?type=player">Player Islands</a>
+    <a href="islands.php?type=faction">Faction Islands</a>
 </div>
 
 <div class="container">

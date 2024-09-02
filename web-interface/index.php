@@ -20,15 +20,15 @@
             <img src="placeholder-image.jpg" alt="SkyFactions Image">
         </div>
         <div class="sections">
-            <a href="web-interface/raids.php" class="section-box">
+            <a href="raids.php" class="section-box">
                 <img src="raids-icon.jpg" alt="Raids Icon">
                 <p>Raids</p>
             </a>
-            <a href="web-interface/factions.php" class="section-box">
+            <a href="factions.php" class="section-box">
                 <img src="factions-icon.jpg" alt="Factions Icon">
                 <p>Factions</p>
             </a>
-            <a href="web-interface/islands.php" class="section-box">
+            <a href="islands.php" class="section-box">
                 <img src="islands-icon.jpg" alt="Islands Icon">
                 <p>Islands</p>
             </a>
