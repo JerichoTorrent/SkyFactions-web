@@ -1,6 +1,9 @@
 <?php
 // raids.php
 include 'db_connect.php';
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
 // Fetch raids from the database
 function getRaids($conn, $type = 'player', $sort = 'DESC') {
@@ -24,7 +27,7 @@ $conn->close();
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1>Raiding history on the Torrent SkyFactions</h1>
+<h1>Raiding history on Torrent SkyFactions</h1>
 
 <div class="navbar">
     <a href="raids.php?type=player">Player Raids</a>
