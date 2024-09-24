@@ -1,3 +1,3 @@
 # SkyFactions-web
 Feature rich web-module for SkyFactionsReborn  
-![Project Logo](./SkyFactions_web.png)
+![Project Logo](./SkyFactions_Web.png)
