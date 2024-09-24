@@ -1,9 +1,9 @@
 <?php
 // input your MySQL server details here
-$servername = "localhost";
-$username = "your_username";
-$password = "your_password";
-$dbname = "skyfactions_db";
+$servername = "panel.torrentsmp.com:3306";
+$username = "u5_BnK7fmIKeb";
+$password = "D5dL=BSjd1jYpssUe!ez^O5q";
+$dbname = "s5_SkyFactions";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
