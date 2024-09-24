@@ -76,7 +76,9 @@ server {
 }
 ```
 Now we need to symlink your sites-available with sites-enabled, so any changes are reflected. You can easily do that with:
-```ln -s /etc/nginx/sites-available/sky.example.com /etc/nginx/sites-enabled/```
+```
+ln -s /etc/nginx/sites-available/sky.example.com /etc/nginx/sites-enabled/
+```
 
 Once your changes are complete, `run systemctl restart nginx`
 
